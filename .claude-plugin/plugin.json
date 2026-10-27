@@ -1,0 +1,14 @@
+{
+  "name": "confirmed",
+  "description": "Skills for the Confirmed API: shows, ticket sales, venues, acts and live show control.",
+  "version": "1.0.0",
+  "author": {
+    "name": "RGB Monster",
+    "email": "support@confirmed.show",
+    "url": "https://confirmed.show"
+  },
+  "homepage": "https://confirmed.show/api-docs",
+  "repository": "https://github.com/rgb-monster/confirmed-skills",
+  "license": "MIT",
+  "keywords": ["confirmed", "comedy", "bookings", "api"]
+}

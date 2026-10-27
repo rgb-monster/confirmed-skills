@@ -1,0 +1,14 @@
+{
+  "name": "confirmed-skills",
+  "owner": {
+    "name": "RGB Monster",
+    "email": "support@confirmed.show"
+  },
+  "plugins": [
+    {
+      "name": "confirmed",
+      "source": "./",
+      "description": "Skills for the Confirmed API: shows, ticket sales, venues, acts and live show control."
+    }
+  ]
+}
