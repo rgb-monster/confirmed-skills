@@ -189,7 +189,7 @@ An act is a performer (or crew member) the production books. If the act has thei
 merges the production's copy with the act's profile, and `deltas` shows both: `{"prod": {...}, "act": {...}}`.
 
 - Writable fields: `name`, `email`, `phone`, `legal_name`, `notes`, `tags`, `bio`, `bio_extended`, `credits`,
-  `plug`, `website`, `instagram`, `twitter`, `tiktok`, `facebook`, `video_link`.
+  `plug`, `website`, `instagram`, `twitter`, `tiktok`, `facebook`, `video_link` (a video for promoting their shows).
 - `POST /acts` needs `name` and returns the act with `201`. An email another act has returns `409` with that act's
   `id`. Use it to update the existing act instead of creating a duplicate.
 - On a **linked** act (one with `global_id`), writing a profile field such as `bio` keeps the production's value
